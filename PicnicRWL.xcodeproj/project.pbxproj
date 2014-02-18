@@ -21,6 +21,14 @@
 		C3BB324718B22657005E2952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BB322918B22657005E2952 /* UIKit.framework */; };
 		C3BB324F18B22657005E2952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3BB324D18B22657005E2952 /* InfoPlist.strings */; };
 		C3BB325118B22657005E2952 /* PicnicRWLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BB325018B22657005E2952 /* PicnicRWLTests.m */; };
+		C3BB326218B22688005E2952 /* bug.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BB325B18B22688005E2952 /* bug.png */; };
+		C3BB326318B22688005E2952 /* door_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BB325C18B22688005E2952 /* door_bottom.png */; };
+		C3BB326418B22688005E2952 /* door_top.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BB325D18B22688005E2952 /* door_top.png */; };
+		C3BB326518B22688005E2952 /* fabric_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BB325E18B22688005E2952 /* fabric_bottom.png */; };
+		C3BB326618B22688005E2952 /* fabric_top.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BB325F18B22688005E2952 /* fabric_top.png */; };
+		C3BB326718B22688005E2952 /* plate_cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BB326018B22688005E2952 /* plate_cheese.png */; };
+		C3BB326818B22688005E2952 /* squish.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3BB326118B22688005E2952 /* squish.caf */; };
+		C3BB32AB18B24BCD005E2952 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BB32AA18B24BCD005E2952 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		C3BB324C18B22657005E2952 /* PicnicRWLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicnicRWLTests-Info.plist"; sourceTree = "<group>"; };
 		C3BB324E18B22657005E2952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3BB325018B22657005E2952 /* PicnicRWLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicnicRWLTests.m; sourceTree = "<group>"; };
+		C3BB325B18B22688005E2952 /* bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug.png; sourceTree = "<group>"; };
+		C3BB325C18B22688005E2952 /* door_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door_bottom.png; sourceTree = "<group>"; };
+		C3BB325D18B22688005E2952 /* door_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door_top.png; sourceTree = "<group>"; };
+		C3BB325E18B22688005E2952 /* fabric_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fabric_bottom.png; sourceTree = "<group>"; };
+		C3BB325F18B22688005E2952 /* fabric_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fabric_top.png; sourceTree = "<group>"; };
+		C3BB326018B22688005E2952 /* plate_cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate_cheese.png; sourceTree = "<group>"; };
+		C3BB326118B22688005E2952 /* squish.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = squish.caf; sourceTree = "<group>"; };
+		C3BB32AA18B24BCD005E2952 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3BB32AB18B24BCD005E2952 /* AudioToolbox.framework in Frameworks */,
 				C3BB322818B22657005E2952 /* CoreGraphics.framework in Frameworks */,
 				C3BB322A18B22657005E2952 /* UIKit.framework in Frameworks */,
 				C3BB322618B22657005E2952 /* Foundation.framework in Frameworks */,
@@ -101,6 +118,7 @@
 		C3BB322418B22657005E2952 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3BB32AA18B24BCD005E2952 /* AudioToolbox.framework */,
 				C3BB322518B22657005E2952 /* Foundation.framework */,
 				C3BB322718B22657005E2952 /* CoreGraphics.framework */,
 				C3BB322918B22657005E2952 /* UIKit.framework */,
@@ -126,6 +144,7 @@
 		C3BB322C18B22657005E2952 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C3BB325A18B22688005E2952 /* PicnicFiles */,
 				C3BB322D18B22657005E2952 /* PicnicRWL-Info.plist */,
 				C3BB322E18B22657005E2952 /* InfoPlist.strings */,
 				C3BB323118B22657005E2952 /* main.m */,
@@ -150,6 +169,20 @@
 				C3BB324D18B22657005E2952 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3BB325A18B22688005E2952 /* PicnicFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C3BB325B18B22688005E2952 /* bug.png */,
+				C3BB325C18B22688005E2952 /* door_bottom.png */,
+				C3BB325D18B22688005E2952 /* door_top.png */,
+				C3BB325E18B22688005E2952 /* fabric_bottom.png */,
+				C3BB325F18B22688005E2952 /* fabric_top.png */,
+				C3BB326018B22688005E2952 /* plate_cheese.png */,
+				C3BB326118B22688005E2952 /* squish.caf */,
+			);
+			path = PicnicFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3BB326518B22688005E2952 /* fabric_bottom.png in Resources */,
+				C3BB326218B22688005E2952 /* bug.png in Resources */,
+				C3BB326618B22688005E2952 /* fabric_top.png in Resources */,
+				C3BB326718B22688005E2952 /* plate_cheese.png in Resources */,
+				C3BB326318B22688005E2952 /* door_bottom.png in Resources */,
 				C3BB323E18B22657005E2952 /* Images.xcassets in Resources */,
+				C3BB326418B22688005E2952 /* door_top.png in Resources */,
+				C3BB326818B22688005E2952 /* squish.caf in Resources */,
 				C3BB323018B22657005E2952 /* InfoPlist.strings in Resources */,
 				C3BB323918B22657005E2952 /* Main.storyboard in Resources */,
 			);
